@@ -56,10 +56,10 @@ var button = d3.select("#date-filter-btn");
 //select the form where we do the date input
 var form = d3.select("#datetime");
 //event handlers
-button.on("click", runEnter);
-form.on("submit",runEnter);
+button.on("click", runDate);
+form.on("submit",runDate);
 // Complete the event handler function for the form
-function runEnter() {
+function runDate() {
 // Prevent the page from refreshing
   d3.event.preventDefault();
   var tableHeaderRowCount = 1;
@@ -92,16 +92,17 @@ function runEnter() {
     });
     }); 
 };
+
 ////CITY FILTER////
 //button button, whose got the button
 var button = d3.select("#city-filter-btn"); //check
 //select the form where we do the date input
 var form = d3.select("#city"); //check
 //event handlers
-button.on("click", runEnter);
-form.on("submit",runEnter);
+button.on("click", runCity);
+form.on("submit",runCity);
 // Complete the event handler function for the form
-function runEnter() {
+function runCity() {
 // Prevent the page from refreshing
   d3.event.preventDefault();
   var tableHeaderRowCount = 1;
@@ -142,10 +143,10 @@ var button = d3.select("#state-filter-btn"); //check
 //select the form where we do the date input
 var form = d3.select("#state"); //check
 //event handlers
-button.on("click", runEnter);
-form.on("submit",runEnter);
+button.on("click", runState);
+form.on("submit",runState);
 // Complete the event handler function for the form
-function runEnter() {
+function runState() {
 // Prevent the page from refreshing
   d3.event.preventDefault();
   var tableHeaderRowCount = 1;
@@ -185,10 +186,10 @@ var button = d3.select("#country-filter-btn"); //check
 //select the form where we do the date input
 var form = d3.select("#country"); //check
 //event handlers
-button.on("click", runEnter);
-form.on("submit",runEnter);
+button.on("click", runCountry);
+form.on("submit",runCountry);
 // Complete the event handler function for the form
-function runEnter() {
+function runCountry() {
 // Prevent the page from refreshing
   d3.event.preventDefault();
   var tableHeaderRowCount = 1;
@@ -228,10 +229,10 @@ var button = d3.select("#shape-filter-btn"); //check
 //select the form where we do the date input
 var form = d3.select("#shape"); //check
 //event handlers
-button.on("click", runEnter);
-form.on("submit",runEnter);
+button.on("click", runShape);
+form.on("submit",runShape);
 // Complete the event handler function for the form
-function runEnter() {
+function runShape() {
 // Prevent the page from refreshing
   d3.event.preventDefault();
   var tableHeaderRowCount = 1;
