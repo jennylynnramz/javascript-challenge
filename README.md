@@ -1,4 +1,4 @@
-# Correlation Between Weather Attributes and Latitude
+# View Alien Sighting Details
 
 ## Demo - [Click here](https://jennylynnramz.github.io/javascript-challenge/UFO-level-3/)
 
