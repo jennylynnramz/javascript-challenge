@@ -1,11 +1,11 @@
 # View Alien Sighting Details
 
-## Demo - [Click here](https://jennylynnramz.github.io/javascript-challenge/UFO-level-3/)
+## Demo - [Click here](http://jennylynnramz.com/ufo_sightings/)
 
 ## Desciption
 * This project explores lets users view specific alien sightings on a simple single page app.
 * Bootstrap is used to create UI for this single page app.
-* The single page app filters [this JSON dataset](https://github.com/jennylynnramz/javascript-challenge/blob/master/UFO-level-3/static/js/data.js) using D3.js.
+* The single page app filters [this JSON dataset](https://github.com/jennylynnramz/ufo_sightings/blob/master/static/js/data.js) using D3.js.
 
 
 ## Built With
