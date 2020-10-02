@@ -2,6 +2,8 @@
 
 ## Demo - [Click here](http://jennylynnramz.com/ufo_sightings/)
 
+![Preview](https://github.com/jennylynnramz/jennylynnramz.github.io/blob/master/Photos/UFO.png?raw=true)
+
 ## Desciption
 * This project explores lets users view specific alien sightings on a simple single page app.
 * Bootstrap is used to create UI for this single page app.
